@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+name: Thomas C Eskridge
 first_name: You
 middle_name: R.
 last_name: Name
-email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+email: teskridge@fit.edu
+description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -15,8 +15,8 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+baseurl: # the subpath of your site, e.g. /blog/
+last_updated: false leave blank if you don't want to display last updated
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -42,11 +42,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
+github_username: tce # your GitHub user name
+twitter_username: tce001 # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: https://orcid.org/0000-0002-2117-5294   #  your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -65,10 +65,13 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
+blog_name: Eskridge Research
+blog_description: Personal webiste for Thomas C Eskridge
 
 blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
 # Pagination
 pagination:
@@ -76,6 +79,11 @@ pagination:
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
+
+# Optional features
+show_social_icons:  false
+enable_anchorjs:    false
+enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -137,6 +145,9 @@ scholar:
 
   style: apa
   locale: en
+
+  sort_by: year
+  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
