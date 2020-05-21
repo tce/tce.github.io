@@ -46,7 +46,7 @@ github_username: tce # your GitHub user name
 twitter_username: tce001 # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
-orcid_id: https://orcid.org/0000-0002-2117-5294   #  your ORCID ID
+orcid_id: 0000-0002-2117-5294 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -140,7 +140,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Eskridge
   first_name: [Albert, A.]
 
   style: apa
