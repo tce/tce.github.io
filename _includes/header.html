@@ -1,11 +1,14 @@
 <header>
 
+  <div class="wrapper">
+
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
        {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
+        <strong>{{ name | first }}</strong> {{ name | last }}
       </a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
@@ -18,8 +21,11 @@
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
         <span class="icon-bar bottom-bar"></span>
       </button>
+
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
@@ -59,7 +65,7 @@
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">
-                  <i class="fas fa-moon"></i>
+        <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a>
                   <i class="fas fa-sun"></i>
               </a>
             </div>
