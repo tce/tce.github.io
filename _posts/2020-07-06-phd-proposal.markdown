@@ -16,6 +16,10 @@ Two or three research questions that you will answer.
 
 Describe previous work that address some of your research questions, but why they do not fully answer them.
 
+The literature review provides the framwork for the reader so that your research question and methodology can be better understood.  It demonstrates that you are aware of and understand the breadth of work that relates to the research question and where the gaps in that research are.
+
+You should be able to discuss in depth the most important and relevant theories, frameworks, experimental studies and methodologies.  
+
 # Theoretical Framework
 
 Describe the theoretical framework that you are proposing to use to address your research questions.
