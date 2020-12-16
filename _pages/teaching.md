@@ -5,6 +5,22 @@ title: teaching
 description: Courses I've taught. 
 ---
 
+*Spring 2021 HCD 6701 Research Methods for Human-Centered Design*
+
+This course presents the main ideas, techniques and differences in research methods used to conduct human-centered design, research and development. Students will learn to dessign, implement, and evaluate experiments that support hypothesis testing with human experimental participants. Students will design and implement an experiment during the course of the semester and present an evaluation of their project at the end of the term.
+
+*Spring 2021 HCD 6380 Creative and Design Thinking*
+
+This course introduces students to the theory and practice of design thinking for human-centered design of new products, processes, and organizations. Students will apply principles of design thinking to problems in different domains and learn which design thinking techniques should be applied for different types of problems in order to address the needs of the users being designed for. This is a ”hands-on” course where students will be generating numerous designs and evaluating not only the quality of those designs, but the effectiveness of the design process that generated them.
+
+*Fall 2020 HCD 5210 Introduction to Human-Centered Dessign*
+
+This course is designed to be the first course incoming students in the Human-Centered Design program take to understand the discipline in general. This class explores the processes and principles of the Human-Centered Design (HCD) approach to the development of efficient, useful, satisfying and safe interactions between people and automation. These interactions will enhance the effectiveness of human performance while reducing the cognitive load of the user during operation.  Students use ideas and principles of HCD to complete a semester project.
+
+*Fall 2020 HCD 5802 Usability Engineering*
+
+This class explores the processes and principles of Usability Engineering to develop efficient, useful, satisfying and safe interactions between people and physical or digital systems. The course covers concepts of usability, testing and evaluation methods, use of evalu- ation results, and integration with human-centered design. It discusses sensorimotor models and measures, ergonomic guidelines and recommendations, human-centered learning retention, human error management, efficiency, pleasure, emotional aspects, stress, workload and acceptability.
+
 *Spring 2020 HCD 6380 Creative and Design Thinking*
 
 This course introduces students to the theory and practice of design thinking for human-centered design of new products, processes, and organizations. Students will apply principles of design thinking to problems in different domains and learn which design thinking techniques should be applied for different types of problems in order to address the needs of the users being designed for. This is a ”hands-on” course where students will be generating numerous designs and evaluating not only the quality of those designs, but the effectiveness of the design process that generated them.
