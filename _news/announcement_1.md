@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2020-05-18 15:59:00-0400
+date: 2022-04-22 15:59:00-0400
 inline: true
 ---
 
-Eskridge and Weekes' paper entitled "Opportunities for Case-based Reasoning in Personal Flow and Productivity Management" has been accepted for publication in the 28th International Conference on Case-based Reasoning (ICCBR-2020).
+Congratulations to Kazuhiko Momose for passing his comprehensive exam in Human-Centered Design and the acceptance of his dissertation proposal entitled "Profiles of Communication and Authority for Evaluating Human-Automation Teamwork and Trust".
