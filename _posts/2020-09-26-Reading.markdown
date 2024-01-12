@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fun Reading: 09-20 - 09-26-2020: Rethinking Thought by Laura Otis
+title: Rethinking Thought by Laura Otis
 date: 2020-09-26 14:17:00-0500
 inline: false
 ---
@@ -15,3 +15,4 @@ The fun reading for this week is "Rethinking Thought: Inside the minds of creati
 
 The book was an interesting read concerning the different types of thought: more verbal, more image-based, or more feeling-based.
 
+Fun Reading: 09-20 - 09-26-2020: Rethinking Thought by Laura Otis
