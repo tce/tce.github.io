@@ -53,3 +53,6 @@ img: /assets/img/2.jpg
 <!--     <img class="col two left" src="/img/6.jpg"/> -->
 <!--     <img class="col one left" src="/img/11.jpg"/> -->
 <!-- </div> -->
+
+
+All of the previous research areas are key components in developing a theory of teamwork that is equally applicable to humans and automation.  I am conducting research with several PhD students on developing a theory of human-automation interaction that identifies interdependence points in plans and tasks where input from either the human to the automation, or automation to the human could be useful, and what information could be communicated to increase the overall performance of the team.   Biosensors on the human operator (EEG, GSR, heart rate, etc) provide data related to operator state, which can influence how and when automation can support human performance. 
