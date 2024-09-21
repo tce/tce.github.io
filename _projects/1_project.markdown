@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Semantic Web Editor
-description: An online, collaborative viewer and editor
+title: Ontologies and knowledge representation
+description: Tools for creating and working with ontologies 
 img: /assets/img/sweditormain.png
 ---
 
@@ -46,7 +46,7 @@ img: /assets/img/sweditormain.png
 
 <!-- <br/><br/> -->
 
-
+The development of the Semantic Web has caused a resurgence in formally representing systems of knowledge both for inference and for maintaining a common vocabulary.  My research in this area centers on developing and understanding ontologies through innovative visualization and ontology presentation techniques.  I have developed a system called COE that is useful in browsing, understanding, editing and creating ontologies represented in the OWL formalism. I have recently extended the COE system in a collaborative, web-based system called SWEditor (Semantic Web Editor or SWE) to take advantage of new syntax in the latest OWL specification, as well as integrating reasoning and query development during the ontology construction process.  SWEditor is the basis for a number of projects in ontology, knowledge representation, and visualization including funded research on viewing and navigating ontology summaries, and creating domain-specific editors that allow semantic web novices to create a use ontologies in their domains of experience.
 <!-- The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: -->
 
 <!-- <div class="img_row"> -->
