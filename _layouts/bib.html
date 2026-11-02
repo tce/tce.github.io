@@ -49,10 +49,42 @@
     </span>
 
     <span class="periodical">
-    {% if entry.type == "article" %}
-      <em>{{entry.journal}}</em>
-    {% elsif entry.type == "inproceedings" %}
-      <em>In {{entry.booktitle}}</em>
+    {% comment %}
+      Many entries carry a custom `type` field (e.g. "Conference Proceedings"),
+      which overrides the BibTeX entry type, so pick the venue from whichever
+      field is present rather than branching on entry.type.
+    {% endcomment %}
+    {% assign note = entry.note | default: "" | strip %}
+    {% assign note_head = note | slice: 0, 14 %}
+    {% if note_head == "US Patent App." or note_head == "US Application" %}
+      {% assign patent_no = note | remove_first: "US Patent App." | remove_first: "US Application" | strip | remove_first: "No." | strip %}
+      <em>US Patent Application No. {{patent_no}}</em>,
+    {% elsif note_head contains "US Patent" %}
+      {% assign patent_no = note | remove_first: "US Patent" | strip %}
+      {% assign no_head = patent_no | slice: 0, 3 %}
+      {% if no_head == "No." %}
+        {% assign patent_no = patent_no | slice: 3, 100 | strip %}
+      {% elsif no_head == "No " %}
+        {% assign patent_no = patent_no | slice: 2, 100 | strip %}
+      {% endif %}
+      <em>US Patent No. {{patent_no}}</em>,
+    {% elsif note contains "Patent TW" %}
+      {% assign patent_no = note | split: "Patent " | last | strip %}
+      <em>Taiwan Patent No. {{patent_no}}</em>,
+    {% elsif entry.booktitle %}
+      {% assign bt_first = entry.booktitle | slice: 0 %}
+      {% assign bt_first_lower = bt_first | downcase %}
+      {% if bt_first == bt_first_lower %}
+        <em>{{entry.booktitle}}</em>,
+      {% else %}
+        <em>In {{entry.booktitle}}</em>,
+      {% endif %}
+    {% elsif entry.journal %}
+      <em>{{entry.journal}}</em>,
+    {% elsif entry.institution %}
+      <em>{{entry.institution}}</em>,
+    {% elsif entry.howpublished %}
+      <em>{{entry.howpublished}}</em>,
     {% endif %}
     {% if entry.year %}
       {{entry.year}}
