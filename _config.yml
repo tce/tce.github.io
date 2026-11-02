@@ -206,8 +206,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Eskridge
+  first_name: [Thomas, C]
 
   style: apa
   locale: en
