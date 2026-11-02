@@ -16,5 +16,5 @@ news: true
 social: true
 ---
 
-Tom is a Full Professor in Computer Science and Human-centered Design at Florida Institute of Technology.  His main interests are in creating technology to amplify human performance. His research encompasses knowledge representation, multi-agent systems, machine learning, deep learning, and visualization.
+Tom is a Full Professor in Computer Science and Human-centered Design at Florida Institute of Technology.  His main interests are in creating technology to amplify human performance. His research encompasses human-agent teamwork, multi-agent systems, machine learning, deep learning, and visualization.
 
