@@ -136,6 +136,7 @@ kramdown:
 include: ['_pages']
 exclude:
   - bin
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - vendor
@@ -146,17 +147,12 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
-  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
-  - jekyll-imagemagick
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-target-blank
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings

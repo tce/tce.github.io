@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Personal academic website for Thomas C. Eskridge (https://thomaseskridge.com), built with Jekyll 3.9 on the **al-folio** theme. It is a GitHub *user* page (`tce.github.io`), so:
+Personal academic website for Thomas C. Eskridge (https://thomaseskridge.com), built with Jekyll 4 on the **al-folio** theme. It is a GitHub *user* page (`tce.github.io`), so:
 
 - **`source`** is the branch holding the Jekyll source (work here).
 - **`master`** holds the *built* static site and is overwritten by the deploy script. Never edit or commit source changes to `master`.
@@ -20,7 +20,7 @@ bundle exec jekyll build      # build into _site/ (this is all bin/cibuild does)
 
 - There are no tests or linters; a successful `jekyll build` is the check. BibTeX syntax errors in `_bibliography/papers.bib` surface as jekyll-scholar build failures.
 - `bin/deploy` prompts for confirmation, refuses to run with uncommitted tracked changes, deletes and recreates the local `master` branch, and force-pushes. It is interactive and outward-facing — let the user run it.
-- Local Ruby is 3.4, but the locked gems predate Ruby 3: Jekyll 3.9 calls the removed `File.exists?` (`file-exists.rb` aliases it back, via `RUBYOPT="-r$PWD/file-exists.rb"`), and `bibtex-ruby` 4.4.7 (pinned `~> 4.0` by jekyll-scholar 5.x) fails on Ruby 3 (`tried to create Proc object without a block`). As of 2026-11 the site does not build locally on Ruby 3.4 for that reason.
+- Plugins listed in `_config.yml` → `plugins:` must also be in the `Gemfile`; Jekyll 4 refuses to build if one is missing. The Sass deprecation warnings during the build come from the theme's stylesheets and are harmless.
 
 ## Content architecture
 
